@@ -7,7 +7,8 @@
  다리를 하나하나 움직이면서 여러 장애물을 극복해가면서 골인지점까지 가는게 목표입니다.  
 
 ## 모작
-[워크 마스터 (Walk Master)](https://play.google.com/store/apps/details?id=fi.twomenandadog.walkmaster&hl=ko&gl=US)을 모작합니다.  
+[워크 마스터 (Walk Master)](https://play.google.com/store/apps/details?id=fi.twomenandadog.walkmaster&hl=ko&gl=US)  
+[도그 워킹 마스터]을(https://play.google.com/store/apps/details?id=com.cookapps.dog.walking.master&hl=ko&gl=US) 모작합니다.  
 [플레이 영상](https://youtu.be/iDHZA3JjDac)  
 ## 조작법
  마우스 [LMB]  
