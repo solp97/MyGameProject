@@ -8,8 +8,8 @@
 
 ## 모작
 [워크 마스터 (Walk Master)](https://play.google.com/store/apps/details?id=fi.twomenandadog.walkmaster&hl=ko&gl=US)  
-[도그 워킹 마스터](https://play.google.com/store/apps/details?id=com.cookapps.dog.walking.master&hl=ko&gl=US)을모작합니다.  
-[플레이 영상](https://youtu.be/iDHZA3JjDac)  
+[도그 워킹 마스터 (Dog Walking Master)](https://play.google.com/store/apps/details?id=com.cookapps.dog.walking.master&hl=ko&gl=US)을모작합니다.  
+[플레이 예시 영상](https://youtu.be/iDHZA3JjDac)  
 ## 조작법
  마우스 [LMB]  
 LMB[왼쪽 클릭]으로 다리를 들어 움직입니다.
