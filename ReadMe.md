@@ -11,4 +11,4 @@
  키보드[ A,D ] , 마우스 [LMB]
 
 ## 링크
-<a href="https://www.youtube.com"><img src="https://img.shields.io/badge/Youtube-FF0000?style=for-the-badge&logo=Youtube&logoColor=white"></a>
+<a href="https://www.youtube.com/watch?v=6nOiIdkRH6I"><img src="https://img.shields.io/badge/Youtube-FF0000?style=for-the-badge&logo=Youtube&logoColor=white"></a>
