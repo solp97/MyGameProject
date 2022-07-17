@@ -6,7 +6,7 @@
  플레이어는 캐릭터가 넘어지지 않고 골인지점을 갈수 있게 도와줘야합니다  
  다리를 하나하나 움직이면서 여러 장애물을 극복해가면서 골인지점까지 가는게 목표입니다.  
 
-**모작**
+## 모작
 [워크마스터](https://play.google.com/store/apps/details?id=fi.twomenandadog.walkmaster&hl=ko&gl=US)을 모작합니다.  
  
 ## 조작법
