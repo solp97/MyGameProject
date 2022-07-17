@@ -10,9 +10,9 @@
 [워크 마스터 (Walk Master)](https://play.google.com/store/apps/details?id=fi.twomenandadog.walkmaster&hl=ko&gl=US)을 모작합니다.  
 [플레이 영상](https://youtu.be/iDHZA3JjDac)  
 ## 조작법
-키보드[ A,D ] , 마우스 [LMB]  
-A, D로 왼쪽 다리, 오른쪽 다리를 선택합니다  
-LMB[왼쪽 클릭]으로 선택한 다리를 들어 움직입니다.  
+ 마우스 [LMB]  
+LMB[왼쪽 클릭]으로 다리를 들어 움직입니다.
+다리 한 쪽 놓으면 다른 쪽 다리를 움직일 수 있습니다.
 
 ## 링크
 <a href="https://www.youtube.com/watch?v=6nOiIdkRH6I"><img src="https://img.shields.io/badge/Youtube-FF0000?style=for-the-badge&logo=Youtube&logoColor=white"></a>
