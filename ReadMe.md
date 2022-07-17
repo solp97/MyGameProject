@@ -12,7 +12,7 @@
 ## 조작법
  마우스 [LMB]  
 LMB[왼쪽 클릭]으로 다리를 들어 움직입니다.
-다리 한 쪽 놓으면 다른 쪽 다리를 움직일 수 있습니다.
+LMB를 때면 다른 다리를 움직일 수 있습니다.
 
 ## 링크
 <a href="https://www.youtube.com/watch?v=6nOiIdkRH6I"><img src="https://img.shields.io/badge/Youtube-FF0000?style=for-the-badge&logo=Youtube&logoColor=white"></a>
