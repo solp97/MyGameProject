@@ -5,9 +5,7 @@
 게임에 대해서 간단히 설명합니다.
 
 **모작**
-[워크마스터](https://play.google.com/store/apps/details?id=fi.twomenandadog.walkmaster&hl=ko&gl=US)을 모작했습니다.
-
- 영상 (https://youtu.be/gG8VmaQyrmo)
+[워크마스터](https://play.google.com/store/apps/details?id=fi.twomenandadog.walkmaster&hl=ko&gl=US)을 모작합니다.
  
 ## 조작법
  키보드[ A,D ] , 마우스 [LMB]
