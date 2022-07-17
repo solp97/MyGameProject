@@ -8,7 +8,7 @@
 
 ## 모작
 [워크마스터](https://play.google.com/store/apps/details?id=fi.twomenandadog.walkmaster&hl=ko&gl=US)을 모작합니다.  
- 
+[플레이 영상](https://youtu.be/iDHZA3JjDac)  
 ## 조작법
 키보드[ A,D ] , 마우스 [LMB]  
 A, D로 왼쪽 다리, 오른쪽 다리를 선택합니다  
