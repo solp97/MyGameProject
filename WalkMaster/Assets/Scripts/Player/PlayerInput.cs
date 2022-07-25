@@ -4,24 +4,35 @@ using UnityEngine;
 
 public class PlayerInput : MonoBehaviour
 {
-    public Camera camera;
-    public float moveMaxXDistance;
-    public float moveMinXDistance;
-    public float moveMaxYDistance;
-    public float moveMinYDistance;
-    public float maxRotate;
-    public float minRotate;
-    Ray ray;
+    public Camera PlayInCamera;
+    public StickManager stick;
+    Vector2 firstGetPoint;
 
-    void Start()
+    private void Start()
     {
-        RaycastHit hit;
-        Ray ray = camera.ScreenPointToRay(Input.mousePosition);
-
-        if (Physics.Raycast(ray, out hit))
-        {
-            Transform objectHit = hit.transform;
-        }
+        stick = GetComponent<StickManager>();
     }
 
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(0)) 
+        {
+            firstGetPoint = Input.mousePosition;
+        }
+
+        /*Debug.Log($"{mousePos}");*/
+        if (Input.GetMouseButton(0))
+        {
+            Ray ray = PlayInCamera.ScreenPointToRay(Input.mousePosition);
+            RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction, Mathf.Infinity);
+            Vector2 mousePos = Input.mousePosition;
+                Debug.Log($"ÂïÀ½{firstGetPoint - mousePos}");
+        }
+
+        if (Input.GetMouseButtonUp(0))
+        {
+            
+        }
+
+    }
 }
