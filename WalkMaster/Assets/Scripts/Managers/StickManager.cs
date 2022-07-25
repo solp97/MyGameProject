@@ -2,10 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StickManager : MonoBehaviour
+public class StickManager : Singleton<StickManager>
 {
     public GameObject LeftStick;
     public GameObject RightStick;
+    public GameObject PlayerObj;
+
     public float StickMoveMaxXDistance;
     public float StickMoveMinXDistance;
     public float StickMoveMaxYDistance;
@@ -13,40 +15,52 @@ public class StickManager : MonoBehaviour
     public float StickMaxRotate;
     public float StickMinRotate;
 
-    private bool isStickClick = false;
-    private enum stickChange { Left,Right};
-    stickChange stickNum = 0;
+    private bool isLeftStickClick = false;
+    private bool isRightStickClick = false;
+    private enum stickChange { Left, Right };
+    stickChange stickNum = stickChange.Right;
     // Start is called before the first frame update
-    void Awake ()
+
+    
+    public void StickIsOn()
     {
-        LeftStick = GetComponent<GameObject>();
-        RightStick = GetComponent<GameObject>();
-    }
 
-
-    void StickIsOn()
-    {
-        isStickClick = true;
-
-        if((int)stickNum == 0)
+        if (stickNum == stickChange.Left)
         {
-            
-
+           isLeftStickClick = true;
         }
 
-        if((int)stickNum == 1)
+        else if(stickNum == stickChange.Right)
         {
-            
+            isRightStickClick = true;
         }
     }
 
-    void StickIsOff()
+    public void StickMove(Vector2 FirstMousePos, Vector2 NowMousePos)
     {
+        float dist = Vector2.Distance(FirstMousePos, NowMousePos);
+        Debug.Log($"현재 거리{dist}");
+    }
+
+    public void StickIsOff()
+    {
+        if (stickNum == stickChange.Left)
+        {
+            isLeftStickClick = false;
+        }
+
+        else if(stickNum == stickChange.Right)
+        {
+            isRightStickClick = false;
+        }
+
         StickChange();
     }
 
-    void StickChange()
+    public void StickChange()
     {
-
+        if (stickNum == 0) stickNum = stickChange.Right;
+        else stickNum = stickChange.Left;
+        Debug.Log($"현재{stickNum}");
     }
 }

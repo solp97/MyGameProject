@@ -556,6 +556,10 @@ PrefabInstance:
       propertyPath: PlayInCamera
       value: 
       objectReference: {fileID: 1428163713}
+    - target: {fileID: 6665413073111903303, guid: 8468633bbe3e49c4f84cc19b823e9c7f, type: 3}
+      propertyPath: StickManager
+      value: 
+      objectReference: {fileID: 674372451}
     m_RemovedComponents:
     - {fileID: 1062871690208159056, guid: 8468633bbe3e49c4f84cc19b823e9c7f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8468633bbe3e49c4f84cc19b823e9c7f, type: 3}
