@@ -6,7 +6,6 @@ public class StickManager : Singleton<StickManager>
 {
     public GameObject LeftStick;
     public GameObject RightStick;
-    public GameObject PlayerObj;
 
     public float StickMoveMaxXDistance;
     public float StickMoveMinXDistance;
@@ -24,7 +23,6 @@ public class StickManager : Singleton<StickManager>
     
     public void StickIsOn()
     {
-
         if (stickNum == stickChange.Left)
         {
            isLeftStickClick = true;
@@ -38,8 +36,22 @@ public class StickManager : Singleton<StickManager>
 
     public void StickMove(Vector2 FirstMousePos, Vector2 NowMousePos)
     {
+        Vector2 currentPos = FirstMousePos - NowMousePos;
         float dist = Vector2.Distance(FirstMousePos, NowMousePos);
-        Debug.Log($"현재 거리{dist}");
+        float angle = Mathf.Atan2(currentPos.x, currentPos.y) * Mathf.Rad2Deg;
+        Debug.Log($"현재 거리{dist} 현재 앵글{angle}");
+
+        if(stickNum == stickChange.Left)
+        {
+           LeftStick.transform.rotation = Quaternion.AngleAxis(angle ,Vector3.back);
+
+
+        }
+        else
+        {
+            RightStick.transform.rotation = Quaternion.AngleAxis(angle , Vector3.back);
+        }
+
     }
 
     public void StickIsOff()
